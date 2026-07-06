@@ -28,6 +28,24 @@ app.use('/api/platforma-recenzii',platformaRoutes)
 
 const PORT = process.env.PORT || 5000;
 
+app.get('/api/test-db', async (req, res) => {
+  try {
+    const rezultat = await pool.query('SELECT NOW()');
+
+    res.json({
+      mesaj: 'Conexiune cu baza de date reusita!',
+      timp: rezultat.rows[0].now,
+    });
+  } catch (err) {
+    console.error(err);
+
+    res.status(500).json({
+      mesaj: 'Eroare la conectarea cu baza de date!',
+    });
+  }
+});
+
+
 app.listen(PORT, ()=>{
   console.log(`Server pornit pe portul ${PORT}`);
 });
