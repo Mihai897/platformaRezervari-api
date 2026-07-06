@@ -28,7 +28,7 @@ const AdminClienti = () => {
 
   const [userss,setUserss] = useState([]);
   useEffect(()=>{
-    fetch("http://localhost:5000/api/users")
+    fetch(`${import.meta.env.VITE_API_URL}/users`)
     .then(res=>res.json())
     .then(data=>setUserss(data))
     .catch(err=>console.error(err))

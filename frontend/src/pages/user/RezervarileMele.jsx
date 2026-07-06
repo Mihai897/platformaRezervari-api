@@ -13,7 +13,7 @@ const RezervarileMele = () => {
   const [rezervarileClient,setRezerervarileClient] = useState([]);
 
   useEffect(()=>{
-    fetch("http://localhost:5000/api/users/rezervari/1")
+    fetch(`${import.meta.env.VITE_API_URL}/users/rezervari/1`)
     .then(res=>res.json())
     .then(data=>setRezerervarileClient(data))
     .catch(err=>console.error(err))

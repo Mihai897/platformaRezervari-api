@@ -16,7 +16,7 @@ const HotelPolitici = () => {
   const [politici,setPolitici] = useState([]);
 
   useEffect(()=>{
-    fetch(`http://localhost:5000/api/hotels/${slug}/politici`)
+    fetch(`${import.meta.env.VITE_API_URL}/hotels/${slug}/politici`)
     .then(res=>res.json())
     .then(data=>setPolitici(data))
     .catch(err=>console.error(err))

@@ -21,7 +21,7 @@ const Navbar = ({visibleConnect,setVisibleConnect}) => {
 
   const [notificariUser,setNotificariUser] = useState([]);
   useEffect(()=>{
-    fetch("http://localhost:5000/api/users/notificari/1")
+    fetch(`${import.meta.env.VITE_API_URL}/users/notificari/1`)
     .then(res=>res.json())
     .then(data=>setNotificariUser(data))
     .catch(err=>console.error(err))

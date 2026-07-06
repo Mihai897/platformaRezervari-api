@@ -16,7 +16,7 @@ const HotelRoomsList = () => {
   const {slug} = useParams();
   const [rooms,setRooms] = useState([]);
   useEffect(()=>{
-    fetch(`http://localhost:5000/api/rooms/${slug}`)
+    fetch(`${import.meta.env.VITE_API_URL}/rooms/${slug}`)
     .then(res=>res.json())
     .then(data=>setRooms(data))
     .catch(err=>console.error(err));
@@ -59,7 +59,12 @@ const HotelRoomsList = () => {
 
                           <div className='flex-1 h-40 max-modf2:mt-6 w-full'>
                             <div className='overflow-hidden relative border max-modf1:h-40 max-modf2:h-60 h-full border-button/40 rounded-lg'>
-                              <img className='w-full h-full object-center rounded-lg  hover:scale-110 transition-all duration-400 ' src={`${import.meta.env.BASE_URL}${room.image}`} alt="" /> 
+                              <img className='w-full h-full object-center rounded-lg  hover:scale-110 transition-all duration-400 ' src={
+    room.image.startsWith("http")
+      ? room.image
+      : `${import.meta.env.BASE_URL}${room.image}`
+  }
+ alt="" /> 
 
                                
                               {

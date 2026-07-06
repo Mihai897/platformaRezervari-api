@@ -15,7 +15,7 @@ const PaginaRecenzii = () => {
 
   const [stats,setStats] = useState(null);
     useEffect(()=>{
-      fetch("http://localhost:5000/api/platforma-recenzii/stats")
+      fetch(`${import.meta.env.VITE_API_URL}/platforma-recenzii/stats`)
       .then(res=>res.json())
       .then(data=>setStats(data))
       .catch(err=>console.error(err))

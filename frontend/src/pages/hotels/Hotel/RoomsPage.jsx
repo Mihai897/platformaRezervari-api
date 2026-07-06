@@ -11,7 +11,7 @@ const RoomsPage = () => {
   const [camera,setCamera] = useState(null);
 
   useEffect(()=>{
-    fetch(`http://localhost:5000/api/rooms/${slug}/${roomSlug}`)
+    fetch(`${import.meta.env.VITE_API_URL}/rooms/${slug}/${roomSlug}`)
     .then(res=>res.json())
     .then(data=>setCamera(data))
     .catch(err=>console.error(err))
@@ -55,7 +55,12 @@ const RoomsPage = () => {
        
         <div className='flex flex-col space-y-3'>
           <div className='w-full h-125 max-modf1:h-100 max-modf2:h-80 max-modf8:h-60  0'>
-            <img className='w-full h-full object-center rounded-sm' src={`${import.meta.env.BASE_URL}${camera?.image}`} alt="" />
+            <img className='w-full h-full object-center rounded-sm' src={
+    camera?.image.startsWith("http")
+      ? camera?.image
+      : `${import.meta.env.BASE_URL}${camera?.image}`
+  }
+ alt="" />
           </div>
 
           <ul className='grid max-modf2:hidden grid-cols-5 gap-3'>
@@ -63,7 +68,12 @@ const RoomsPage = () => {
               camera?.imagini.slice(0,4).map((imagine)=>(
                 <li key={imagine.id} className='h-full'>
                   
-                  <img className='w-full h-full object-center rounded-sm' src={`${import.meta.env.BASE_URL}${imagine.url}`} alt="" />
+                  <img className='w-full h-full object-center rounded-sm' src={
+    imagine.url.startsWith("http")
+      ? imagine.url
+      : `${import.meta.env.BASE_URL}${imagine.url}`
+  }
+ alt="" />
               
                 </li>
                 

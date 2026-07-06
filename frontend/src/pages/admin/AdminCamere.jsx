@@ -28,13 +28,13 @@ const AdminCamere = () => {
   const [rooms,setRooms] = useState([]);
   const [hotelss,setHotelss] = useState([]);
   useEffect(()=>{
-    fetch("http://localhost:5000/api/hotels")
+    fetch(`${import.meta.env.VITE_API_URL}/hotels`)
     .then(res=>res.json())
     .then(data=>setHotelss(data))
     .catch(err=>console.error(err))
   },[])
   useEffect(()=>{
-    fetch("http://localhost:5000/api/rooms")
+    fetch(`${import.meta.env.VITE_API_URL}/rooms`)
     .then(res=>res.json())
     .then(data=>setRooms(data))
     .catch(err=>console.error(err))
@@ -278,7 +278,12 @@ const AdminCamere = () => {
 
                       <div className={`${visibleBara?"max-modf7:w-55":"max-modf7:w-67"} modf7:flex-3  shrink-0 transition-[width] duration-300 ease-in-out flex items-center space-x-3`}>
                         <div className='w-16 rounded-lg h-16 overflow-hidden shrink-0'>
-                          <img className='w-full h-full hover:scale-110 transition-all duration-300 ease-in-out rounded-lg' src={`${import.meta.env.BASE_URL}${room.image}`} alt="" />
+                          <img className='w-full h-full hover:scale-110 transition-all duration-300 ease-in-out rounded-lg' src={
+    room.image.startsWith("http")
+      ? room.image
+      : `${import.meta.env.BASE_URL}${room.image}`
+  }
+ alt="" />
                         </div>
                         <div>
                           <p className='text-white'>{room.title}</p>

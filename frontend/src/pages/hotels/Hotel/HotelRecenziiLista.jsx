@@ -13,7 +13,7 @@ const HotelRecenziiLista = () => {
    
   const [recenzii,setRecenzii] = useState([]);
   useEffect(()=>{
-    fetch(`http://localhost:5000/api/rooms/${slug}/recenzii`)
+    fetch(`${import.meta.env.VITE_API_URL}/rooms/${slug}/recenzii`)
     .then(res=>res.json())
     .then(data=>setRecenzii(data))
     .catch(err=>console.error(err))

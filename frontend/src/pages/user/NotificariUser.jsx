@@ -11,7 +11,7 @@ const NotificariUser = () => {
 
   const [notificareUser,setNotificareUser]= useState([]);
   useEffect(()=>{
-    fetch("http://localhost:5000/api/users/notificari/1")
+    fetch(`${import.meta.env.VITE_API_URL}/users/notificari/1`)
     .then(res=>res.json())
     .then(data=>setNotificareUser(data))
     .catch(err=>console.error(err))

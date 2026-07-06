@@ -7,7 +7,7 @@ const Ofertele = () => {
   const [oferte,setOferte] = useState([]);
 
   useEffect(()=>{
-    fetch("http://localhost:5000/api/oferte")
+    fetch(`${import.meta.env.VITE_API_URL}/oferte`)
     .then(res=>res.json())
     .then(data=>setOferte(data))
     .catch(err=>console.error(err))

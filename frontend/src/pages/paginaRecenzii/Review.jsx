@@ -8,7 +8,7 @@ import { data } from 'react-router-dom';
 const Review = () => {
   const [recenzii,setRecenzii]= useState([]);
   useEffect(()=>{
-    fetch("http://localhost:5000/api/platforma-recenzii")
+    fetch(`${import.meta.env.VITE_API_URL}/platforma-recenzii`)
     .then(res=>res.json())
     .then(data=>setRecenzii(data))
     .catch(err=>console.error(err))

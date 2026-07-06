@@ -14,7 +14,7 @@ const DetaliiRezervariPage = () => {
 
   const [rezervare,setRezervare] = useState(null);
   useEffect(()=>{
-    fetch(`http://localhost:5000/api/users/rezervari/1/${codRezervare}`)
+    fetch(`${import.meta.env.VITE_API_URL}/users/rezervari/1/${codRezervare}`)
     .then(res=>res.json())
     .then(data=>setRezervare(data))
     .catch(err=>console.error(err))

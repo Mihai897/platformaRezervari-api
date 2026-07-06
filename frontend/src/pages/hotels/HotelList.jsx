@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 const HotelList = () => {
   const [hotels,setHotels] = useState([]);
   useEffect(()=>{
-    fetch('http://localhost:5000/api/hotels')
+    fetch(`${import.meta.env.VITE_API_URL}/hotels`)
     .then(res=>res.json())
     .then(data=>setHotels(data))
     .catch(err=>console.error(err));

@@ -10,7 +10,7 @@ const AdminAdaugaCamera = () => {
   const [hotelss,setHotelss] = useState([]);
     const [hetelurile, setHotelurile] = useState([]);
     useEffect(()=>{
-      fetch("http://localhost:5000/api/hotels")
+      fetch(`${import.meta.env.VITE_API_URL}/hotels`)
       .then(res=>res.json())
       .then(data=>setHotelurile(data))
       .catch(err=>console.error(err))

@@ -12,14 +12,14 @@ const AdminAdaugaOferta = () => {
   const [hottels, setHottels] = useState([]);
   const [camereSlug, setCamereSlug] = useState([]);
   useEffect(()=>{
-    fetch(`http://localhost:5000/api/rooms/rosetti-hotel`)
+    fetch(`${import.meta.env.VITE_API_URL}/rooms/rosetti-hotel`)
     .then(res=>res.json())
     .then(data=>setCamereSlug(data))
     .catch(err=>console.error(err))
   },[slug])
   
   useEffect(()=>{
-    fetch(`http://localhost:5000/api/hotels`)
+    fetch(`${import.meta.env.VITE_API_URL}/hotels`)
     .then(res=>res.json())
     .then(data=>setHottels(data))
     .catch(err=>console.error(err))

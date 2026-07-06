@@ -11,14 +11,14 @@ const HotelRecenzii = () => {
   const [stats,setStats] = useState(null);
   const [rooms,setRooms] = useState([]);
   useEffect(()=>{
-    fetch(`http://localhost:5000/api/rooms/${slug}/recenzii/stats`)
+    fetch(`${import.meta.env.VITE_API_URL}/rooms/${slug}/recenzii/stats`)
     .then(res=>res.json())
     .then(data=>setStats(data))
     .catch(err=>console.error(err))
   },[slug]);
 
   useEffect(()=>{
-    fetch(`http://localhost:5000/api/rooms/${slug}`)
+    fetch(`${import.meta.env.VITE_API_URL}/rooms/${slug}`)
     .then(res=>res.json())
     .then(data=>setRooms(data))
     .catch(err=>console.error(err))

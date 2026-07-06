@@ -8,7 +8,7 @@ const HotelPage = () => {
   const [hotel, setHotel] = useState([]);
   const {slug} = useParams();
   useEffect(()=>{
-    fetch(`http://localhost:5000/api/hotels/${slug}`)
+    fetch(`${import.meta.env.VITE_API_URL}/hotels/${slug}`)
     .then(res=>res.json())
     .then(data=>setHotel(data))
     .catch(err=>console.error(err));

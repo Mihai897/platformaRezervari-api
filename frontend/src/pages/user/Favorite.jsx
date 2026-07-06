@@ -15,7 +15,7 @@ const Favorite = () => {
   const [roomsFav,setRoomsFav] = useState([]);
 
   useEffect(()=>{
-    fetch("http://localhost:5000/api/users/favorite-hotel/1")
+    fetch(`${import.meta.env.VITE_API_URL}/users/favorite-hotel/1`)
     .then(res=>res.json())
     .then(data=>setHotelsFav(data))
     .catch(err=>console.error(err))

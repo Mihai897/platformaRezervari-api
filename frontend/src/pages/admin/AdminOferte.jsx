@@ -23,13 +23,13 @@ const AdminOferte = () => {
   const [hoteluri,setHoteluri] = useState([])
   const [oferte,setOferte] = useState([]);
   useEffect(()=>{
-    fetch("http://localhost:5000/api/oferte/toate")
+    fetch(`${import.meta.env.VITE_API_URL}/oferte/toate`)
     .then(res=>res.json())
     .then(data=>setOferte(data))
     .catch(err=>console.error(err))
   },[])
   useEffect(()=>{
-    fetch("http://localhost:5000/api/hotels")
+    fetch(`${import.meta.env.VITE_API_URL}/hotels`)
     .then(res=>res.json())
     .then(data=>setHoteluri(data))
     .catch(err=>console.error(err))

@@ -28,13 +28,13 @@ const AdminRezervari = () => {
   const [rezervariUsers,setRezervariUsers] = useState([]);
   const [hotelss,setHotelss] = useState([]);
   useEffect(()=>{
-    fetch("http://localhost:5000/api/hotels")
+    fetch(`${import.meta.env.VITE_API_URL}/hotels`)
     .then(res=>res.json())
     .then(data=>setHotelss(data))
     .catch(err=>console.error(err))
   },[])
   useEffect(()=>{
-    fetch("http://localhost:5000/api/users/rezervari")
+    fetch(`${import.meta.env.VITE_API_URL}/users/rezervari`)
     .then(res=>res.json())
     .then(data=>setRezervariUsers(data))
     .catch(err=>console.error(err))
@@ -260,7 +260,12 @@ const AdminRezervari = () => {
                     <div className={`${visibleBara? "max-modf7:w-60":"max-modf7:w-70"} transition-[width] duration-300 ease-in-out max-modf7:shrink-0 modf7:flex-3  flex items-center space-x-3`}>
 
                       <div className='w-10 h-10 shrink-0 rounded-lg overflow-hidden'>
-                        <img className='w-full  h-full transition-all duration-300 ease-in-out object-center rounded-lg hover:scale-110' src={`${import.meta.env.BASE_URL}${par?.image_camera}`} alt="" />
+                        <img className='w-full  h-full transition-all duration-300 ease-in-out object-center rounded-lg hover:scale-110' src={
+    par.image_camera.startsWith("http")
+      ? par.image_camera
+      : `${import.meta.env.BASE_URL}${par.image_camera}`
+  }
+ alt="" />
                       </div>
                       
                       <div className=''>

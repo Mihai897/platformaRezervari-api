@@ -8,7 +8,7 @@ const HotelFacilitati = () => {
   const [facilitati,setFacilitati] = useState([]);
 
   useEffect(()=>{
-    fetch(`http://localhost:5000/api/hotels/${slug}/facilitati`)
+    fetch(`${import.meta.env.VITE_API_URL}/hotels/${slug}/facilitati`)
     .then(res=>res.json())
     .then(data=>setFacilitati(data))
     .catch(err=>console.error(err))
