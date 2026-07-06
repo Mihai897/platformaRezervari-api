@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "icon": "Wallet",
+    "titlu": "Rezervari Rapide si Sigure",
+    "info": "Rezerva cazarea dorita in cativa pasi simplii, rapid si in siguranta.",
+    "bg": "bg-button/30"
+  },
+  {
+    "id": 2,
+    "icon": "Megaphone",
+    "titlu": "Oferte Actualizate Zilnic",
+    "info": "Descopera cele mai recente oferte si promotii actualizate zilnic pentru tine.",
+    "bg": "bg-[#BA55D3]/50"
+  },
+  {
+    "id": 3,
+    "icon": "Envelope",
+    "titlu": "Varietate Mare de Oferte",
+    "info": "Alege dintr-o gama larga de oferte.",
+    "bg": "bg-[#DAA520]"
+  },
+  {
+    "id": 4,
+    "icon": "Star",
+    "titlu": "Recenzii Verificate",
+    "info": "Citeste recenziile de la alti utilizatori pentru a lua decizii informate.",
+    "bg": "bg-[#006400]/70"
+  }
+
+]

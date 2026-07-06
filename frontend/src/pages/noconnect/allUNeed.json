@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "Dolar",
+    "nume": "Preturi avantajoase",
+    "info": "Cele mai bune oferte"
+  },
+  {
+    "id": 2,
+    "icon": "Shield",
+    "nume": "Rezervari sigure",
+    "info": "Datele tale sunt securizate"
+  },
+  {
+    "id": 3,
+    "icon": "Anulare",
+    "nume": "Anulare gratuita",
+    "info": "La majoritatea hotelurilor"
+  },
+  {
+    "id": 4,
+    "icon": "Suport",
+    "nume": "Suport clienti 24/7",
+    "info": "Suntem aici pentru tine"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id" : 1,
+    "img": "home/descopera/hotelvis.jpg",
+    "nume": "Hoteluri de vis",
+    "info": "Descopera hoteluri premium in cele mai frumoase destinatii din lume.",
+    "button": "Descopera hoteluri"
+  },
+  {
+    "id": 2,
+    "img": "home/descopera/exotic.jpg",
+    "nume": "Vacante exotice",
+    "info": "Exploreaza destinatii exotice si traieste experiente memorabile.",
+    "button": "Exploreaza destinatii"
+  },
+  {
+    "id": 3,
+    "img": "home/descopera/ofertespeciale.jpg",
+    "nume": "Oferte speciale",
+    "info": "Profita de cele mai bune oferte si reduceri exclusive.",
+    "button": "Vezi ofertele"
+  },
+  {
+    "id": 4,
+    "img": "home/descopera/experienta.jpg",
+    "nume": "Experiente unice",
+    "info": "De la cine romantice, la aventuri inedite, alege experiente de neuitat.",
+    "button": "Descopera experiente"
+  }
+]

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-modf: 960px;
+  --breakpoint-modf1: 760px;
+  --breakpoint-modf2: 630px;
+  --breakpoint-modf3: 1250px;
+  --breakpoint-modf4: 1050px;
+  --breakpoint-modf5: 1550px;
+  --breakpoint-modf6: 1150px;
+  --breakpoint-modf7: 1281px;
+  --breakpoint-modf8: 500px;
+  --breakpoint-modf9: 1480px;
+  --color-button: #7B3FF2;
+  --color-button1: #160833;
+  --color-background: #0E1320;
+  
+}
+*::-webkit-scrollbar {
+  width: 14px;
+}
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #7B3FF2;
+  border-radius: 1000px;
+  border: 2.5px solid transparent;
+  background-clip: content-box;
+
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  
+}

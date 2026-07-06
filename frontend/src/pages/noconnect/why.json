@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "gift",
+    "nume": "Preturi exclusive",
+    "info": "Oferte speciale disponibile numai pentru utilizatori."
+  },
+  {
+    "id": 2,
+    "icon": "gift",
+    "nume": "Plata 100% sigura",
+    "info": "Toate tranzactiile si datele sunt securizate."
+  },
+  {
+    "id": 3,
+    "icon": "gift",
+    "nume": "Anulare flexibila",
+    "info": "Anuleaza gratuit la majoritatea hotelurilor selectate."
+  },
+  {
+    "id": 4,
+    "icon": "gift",
+    "nume": "Suport clienti 24/7",
+    "info": "Echipa noastra este disponibila non-stop pentru a te ajuta in orice situatie."
+  },
+  {
+    "id": 5,
+    "icon": "gift",
+    "nume": "Selectie premium",
+    "info": "Doar hoteluri si parteneri verificeati, pentru confortul tau deplin."
+  },
+  {
+    "id": 6,
+    "icon": "gift",
+    "nume": "Recenzii reale",
+    "info": "Alege informat, pe baza recenzilor verificate de la alti clienti."
+  }
+]

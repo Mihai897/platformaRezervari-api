@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "icon": "Calendar",
+    "name": "Cum pot anula o rezervare?",
+    "path": "/articole/articole-anulare"
+  },
+  {
+    "id": 2,
+    "icon": "Card",
+    "name": "Ce metode de plata sunt acceptate?",
+    "path": "/articole/articole-metoda-plata"
+  },
+  {
+    "id": 3,
+    "icon": "Shield",
+    "name": "Cum imi modific datele personale?",
+    "path": "/articole/articole-date"
+  },
+  {
+    "id": 4,
+    "icon": "Pencil",
+    "name": "Cum foloesc un cod de reducere?",
+    "path": "/articole/articole-cod"
+    
+  },
+  {
+    "id":5,
+    "icon": "User",
+    "name": "Ce este programul de fidelitate?",
+    "path": "/articole/articole-fidelitate"
+    
+
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "icon": "Calendar",
+    "name": "Ghid complet pentru rezervari",
+    "text": "Aflati pas cu pas cum sa cauti si sa faci o rezervare.",
+    "button": "/ghid/ghid-rezervari"
+  },
+  {
+    "id": 2,
+    "icon": "Card",
+    "name": "Metode de plata disponibile",
+    "text": "Vezi toate metodele de plata acceptate pe platforma.",
+    "button": "/ghid/ghid-metoda-plata"
+  },
+  {
+    "id": 3,
+    "icon": "Shield",
+    "name": "Politica de anulare",
+    "text": "Intelege conditiile de anulare si rambursare.",
+    "button": "/ghid/ghid-politica-anulare"
+  },
+  {
+    "id": 4,
+    "icon": "Pencil",
+    "name": "Cum modific o rezervare",
+    "text": "Aflati cum poti modifica rapid datele unei rezervari.",
+    "button": "/ghid/ghid-modificare-rezervare"
+  },
+  {
+    "id":5,
+    "icon": "User",
+    "name": "Cum creez un cont",
+    "text": "Pasii necesari pentru a-ti crea un cont.",
+    "button": "/ghid/ghid-creare-cont"
+
+  },
+  {
+    "id":6,
+    "icon": "Settings",
+    "name": "Gestionarea contului meu",
+    "text": "Actualizeaza datele, preferintele si setarile contului tau.",
+    "button": "/ghid/ghid-gestionare-cont"
+  },
+  {
+    "id":7,
+    "icon": "Question",
+    "name": "Intrebari frecvente despre plati",
+    "text": "Raspunsuri la cele mai comune intrebari despre plati.",
+    "button": "/ghid/ghid-intrebari-plati"
+  },
+  {
+    "id":8,
+    "icon": "Lock",
+    "name": "Securitate si confidentialitate",
+    "text": "Afla cum iti protejam datele si informatiile personale.",
+    "button": "/ghid/ghid-securitate"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id":1,
+    "icon": "Star",
+    "nume": "Calitate",
+    "info": "Selectam cu atenti cele mai bune hoteluri si parteneri."
+  },
+  {
+    "id":2,
+    "icon": "Heart",
+    "nume": "Incredere",
+    "info": "Transparenta si corectitudine in fiecare interactiune."
+  },
+  {
+    "id":3,
+    "icon": "People",
+    "nume": "Pasiune",
+    "info": "Iubim ceea ce facem si se vede in fiecare detaliu."
+  },
+  {
+    "id":4,
+    "icon": "Globe",
+    "nume": "Descoperire",
+    "info": "Te inspiram se descoperi locuri noi si experiente unice."
+  }
+]

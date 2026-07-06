@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "text": "Toate"
+  },
+  {
+    "id": 2,
+    "text": "Rezervari"
+  },
+  {
+    "id": 3,
+    "text": "Plati"
+  },
+  {
+    "id": 4,
+    "text": "Cont"
+  },
+  {
+    "id":5,
+    "text": "Securitate"
+
+  },
+  {
+    "id":6,
+    "text": "Altele"
+  }
+]

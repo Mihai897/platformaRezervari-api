@@ -1,0 +1,18 @@
+[
+  {
+    "id":1,
+    "nume": "Anulare gratuita",
+    "numar": "9.540"
+
+  },
+  {
+    "id":2,
+    "nume": "Plata la sosire",
+    "numar": "6.230"
+  },
+  {
+    "id":3,
+    "nume": "Oferte speciale",
+    "numar": "3.120"
+  }
+]

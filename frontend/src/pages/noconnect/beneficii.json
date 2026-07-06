@@ -1,0 +1,34 @@
+[
+  {
+    "id" : 1,
+    "img": "home/descopera/hotelvis.jpg",
+    "nume": "City Break",
+    "info": "Escapade urbane in orase vibrante. Cultura, shopping si distractie.",
+    "button": "Descopera orase",
+    "link": "/contact"
+  },
+  {
+    "id": 2,
+    "img": "home/descopera/exotic.jpg",
+    "nume": "Natura & Aventura",
+    "info": "Conecteaza-te cu natura si traieste aventuri de neuitat.",
+    "button": "Vezi experiente",
+    "link": "/services"
+  },
+  {
+    "id": 3,
+    "img": "home/descopera/ofertespeciale.jpg",
+    "nume": "Spa & Wellness",
+    "info": "Rasfata-te cu sejururi dedicate relaxarii si starii tale de bine.",
+    "button": "Rasfata-te",
+    "link": "/ghid/ghid-rezervari"
+  },
+  {
+    "id": 4,
+    "img": "home/descopera/experienta.jpg",
+    "nume": "Vacante in familie",
+    "info": "Hoteluri si activitati pentru intreaga familie, de la cei mici la cei mari.",
+    "button": "Exploreaza acum",
+    "link": "/about"
+  }
+]

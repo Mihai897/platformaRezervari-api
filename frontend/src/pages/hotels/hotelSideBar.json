@@ -1,0 +1,23 @@
+[
+  {
+    "id":1,
+    "nume": "Hoteluri",
+    "numar": "8.245"
+
+  },
+  {
+    "id":2,
+    "nume": "Apartamente",
+    "numar": "2.135"
+  },
+  {
+    "id":3,
+    "nume": "Resorturi",
+    "numar": "1.428"
+  },
+  {
+    "id":4,
+    "nume": "Vile",
+    "numar": "732"
+  }
+]

@@ -1,0 +1,38 @@
+import React from 'react'
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import Hoteluri from './Hoteluri';
+import { useState } from 'react';
+import { useEffect } from 'react';
+
+const HotelList = () => {
+  const [hotels,setHotels] = useState([]);
+  useEffect(()=>{
+    fetch('http://localhost:5000/api/hotels')
+    .then(res=>res.json())
+    .then(data=>setHotels(data))
+    .catch(err=>console.error(err));
+  }, []);
+  const nrHotel = hotels.length;
+  return (
+    <div className='modf:flex-3 max-modf:w-full  bg-button1 border border-button/25 px-4 py-4 rounded-sm text-[14px]'>
+      
+      <div className=' flex modf8:justify-between max-modf8:flex-col modf8:items-center'>
+        <p>{nrHotel} de hoteluri gasite</p>
+        
+        <div className='flex space-x-3 max-modf8:mt-3 items-center'>
+          <p>Sorteaza dupa:</p>
+          <div className='bg-button/20 rounded-sm px-3 py-1 flex items-center space-x-1'>
+            <p className='text-gray-300'>Recomandate</p>
+            <MdOutlineKeyboardArrowDown className='mt-0.5 text-button' size={19}/>
+          </div>
+        </div>
+      </div>
+
+      <div className='pt-2'>
+        <Hoteluri hotels={hotels}/>
+      </div>
+    </div>
+  )
+}
+
+export default HotelList

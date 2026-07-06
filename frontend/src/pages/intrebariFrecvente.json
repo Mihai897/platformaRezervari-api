@@ -1,0 +1,32 @@
+[
+  {
+  "id": 1,
+  "nume": "Cum pot face o rezervare?",
+  "text": "Poti face o rezervare cautand destinatia dorita, selectand datele sejurului si alegand unitatea de cazare potrivita. Dupa completarea datelor tale si efectuarea platii, vei primi confirmarea rezervarii pe email."
+  },
+  {
+    "id": 2,
+    "nume": "Ce metoda de plata acceptati?",
+    "text": "Acceptăm multiple metode de plata pentru a asigura o experienta rapida și sigura: carduri bancare, optiuni de plata la locatie sau transfer bancar pentru rezervari speciale. Platile sunt procesate prin sisteme securizate, folosind tehnologii de criptare avansate, garantand confidentialitatea și siguranta tranzactiilor."
+  },
+  {
+    "id": 3,
+    "nume": "Pot anula sau modifica o rezervare?",
+    "text": "Poti modifica sau anula rezervarea in orice moment din contul tau, accesand sectiunea dedicata rezervarilor."
+  },
+  {
+    "id": 4,
+    "nume": "Este suport disponibil 24/7?",
+    "text": "Da, oferim suport dedicat 24/7 prin email cu raspuns in 24h pentru a asigura o experienta fara probleme."
+  },
+  {
+    "id": 5,
+    "nume": "Pot rezerva fara cont?",
+    "text": "Pentru o experienta completa si gestionarea rezervarilor, este necesar sa iti creezi un cont."
+  },
+  {
+    "id": 6,
+    "nume": "Cum pot contacta suportul?",
+    "text": "Poti contacta echipa noastra din pagina de Contact sau prin email."
+  }
+]

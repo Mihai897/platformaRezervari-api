@@ -1,0 +1,26 @@
+[
+  {
+    "id":1,
+    "icon": "Book",
+    "name": "Rezervari Rapide",
+    "info": "Rezervă cazarea dorită în mai puțin de 2 minute, fără pași complicați."
+  },
+  {
+    "id":2,
+    "icon": "Search",
+    "name": "Cautare Avansata",
+    "info": "Filtreaza ofertele in functie de preferintele tale."
+  },
+  {
+    "id":3,
+    "icon": "Tent",
+    "name": "Oferte Speciale",
+    "info": "Profita de oferte exclusive, reduceri si promotii speciale pentru a economisi."
+  },
+  {
+    "id":4,
+    "icon": "Circle",
+    "name": "Asistenta 24/7",
+    "info": "Echipa noastra este disponibila pentru a te ajuta cu orice problema."
+  }
+]

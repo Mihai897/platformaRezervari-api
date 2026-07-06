@@ -1,0 +1,21 @@
+import React from 'react'
+import Explore from '../noconnect/Explore'
+import HotelSidebar from './HotelSidebar'
+import HotelList from './HotelList'
+const Hotels = () => {
+  return (
+    <div>
+      <div className='max-w-screen-2xl mx-auto px-15 max-modf:px-10 max-modf1:px-8 max-modf8:px-3 py-4'>
+        <p className="text-[24px] font-medium">Hoteluri</p>
+        <p className='text-gray-300'>Descopera si rezerva hoteluri din toata tara la cele mai bune preturi.</p>
+      </div>
+      <Explore />
+      <div className='flex space-x-4 max-modf:flex-col items-start max-w-screen-2xl mx-auto px-15 max-modf:px-10 max-modf1:px-8 py-4 max-modf:space-y-4 max-modf8:px-3'>
+        <HotelSidebar/>
+        <HotelList />
+      </div>
+    </div>
+  )
+}
+
+export default Hotels

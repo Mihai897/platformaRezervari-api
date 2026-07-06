@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nr": "01",
+    "nume": "Cauta Destinatia",
+    "info": "Introdu orasul sau hotelul dorit pentru a incepe cautarea."
+  },
+  {
+    "id": 2,
+    "nr": "02",
+    "nume": "Alege Cazarea",
+    "info": "Exploreaza hotelurile disponibile si alege hotelul ideal pentru tine."
+  },
+  {
+    "id": 1,
+    "nr": "03",
+    "nume": "Rezerva Rapid si Sigur",
+    "info": "Finalizeaza rezervarea cu datele tale si plateste in siguranta."
+  }
+]

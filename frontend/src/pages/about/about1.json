@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "Users",
+    "nr": "1.250+",
+    "text": "Utilizatori multumiti"
+  },
+  {
+    "id": 2,
+    "icon": "Megaphone",
+    "nr": "350+",
+    "text": "Anunturi Active"
+  },
+  {
+    "id": 3,
+    "icon": "Verify",
+    "nr": "580+",
+    "text": "Rezervari Efectuate"
+  },
+  {
+    "id": 1,
+    "icon": "Pin",
+    "nr": "50+",
+    "text": "Destinatii populare"
+  }
+]

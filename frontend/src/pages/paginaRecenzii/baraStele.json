@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nrStele": 5,
+    "procent": 85,
+    "nrRecenzii": 10.659
+  },
+  {
+    "id": 2,
+    "nrStele": 4,
+    "procent": 10,
+    "nrRecenzii": 1.256
+  },
+  {
+    "id": 3,
+    "nrStele": 3,
+    "procent": 3,
+    "nrRecenzii": 377
+  },
+  {
+    "id": 4,
+    "nrStele": 2,
+    "procent": 1,
+    "nrRecenzii": 126
+  },
+  {
+    "id": 5,
+    "nrStele": 1,
+    "procent": 1,
+    "nrRecenzii": 122
+  }
+]

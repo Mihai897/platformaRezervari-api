@@ -1,0 +1,31 @@
+[
+  {
+    "id":1,
+    "img": "home/descopera/exotic.jpg",
+    "nume": "Andrian Popescu",
+    "locatie":"Bucuresti, Romania",
+    "info":"Servicii excelente si preturi foarte bune. Am gasit camera perfecta pentru vacanta noastra in Roma."
+  },
+  {
+    "id":2,
+    "img": "home/descopera/exotic.jpg",
+    "nume": "Mihai Ionescu",
+    "locatie":"Cluj-napoca, Romania",
+    "info":"Procesul de rezervare este simplu si rapid. Suportul clienti mi-a raspuns imediat la toate intrebarile."
+  },
+  {
+    "id":3,
+    "img": "home/descopera/exotic.jpg",
+    "nume": "Elena Marin",
+    "locatie":"Iasi, Romania",
+    "info":"Am calatorit in Dubai si hotelul a fost peste asteptari. Cu siguranta voi folosi din nou platforma."
+  },
+  {
+    "id":4,
+    "img": "home/descopera/exotic.jpg",
+    "nume": "Vlad Dumitrescu",
+    "locatie":"Timisoara, Romania",
+    "info":"Anulare gratuita fara  probleme si oferte foarte bune. Recomand cu incredere!"
+  }
+  
+]

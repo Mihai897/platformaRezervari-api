@@ -1,0 +1,34 @@
+[
+  {
+    "id":1,
+    "nume": "Wi-Fi gratuit",
+    "numar": "18.245"
+
+  },
+  {
+    "id":2,
+    "nume": "Mic dejun inclus",
+    "numar": "2.135"
+  },
+  {
+    "id":3,
+    "nume": "Parcare gratuita",
+    "numar": "1.428"
+  },
+  {
+    "id":4,
+    "nume": "Piscina",
+    "numar": "732"
+  },
+  {
+    "id":5,
+    "nume": "Centru de fitness",
+    "numar": "732"
+  },
+  
+  {
+    "id":6,
+    "nume": "Spa & Wellness",
+    "numar": "732"
+  }
+]

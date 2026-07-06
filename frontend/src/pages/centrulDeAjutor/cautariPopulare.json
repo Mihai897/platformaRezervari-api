@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "text": "anulare rezervare"
+  },
+  {
+    "id": 2,
+    "text": "metode de plata"
+  },
+  {
+    "id": 3,
+    "text": "creare cont"
+  },
+  {
+    "id": 4,
+    "text": "modificare rezervare"
+  },
+  {
+    "id":5,
+    "text": "cod de reducere"
+
+  },
+  {
+    "id":6,
+    "text": "factura"
+  }
+]
