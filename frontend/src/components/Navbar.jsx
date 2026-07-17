@@ -192,6 +192,10 @@ const Navbar = ({visibleConnect,setVisibleConnect}) => {
               <FiSettings className='text-[18px]'/>
               <p className='text-[15px] max-modf:text-[14px]'>Setari cont</p>
             </li>
+            <li onClick={()=>{navigate("/admin"); setVisibleMeniuProfil(false)}} className='px-5 flex space-x-3 hover:bg-button/30 cursor-pointer items-center py-1.5 transition-all duration-300 ease-in-out '>
+              <FiSettings className='text-[18px]'/>
+              <p className='text-[15px] max-modf:text-[14px]'>Pagina admin</p>
+            </li>
 
             <div className='border border-button/30'></div>
             <li onClick={()=>{setVisibleConnect(false); setVisibleMeniuProfil(false)}} className='px-5 flex space-x-3 hover:bg-button/30 cursor-pointer items-center py-1.5 transition-all duration-300 ease-in-out '>

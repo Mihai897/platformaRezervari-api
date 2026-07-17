@@ -23,8 +23,8 @@ const AdminBara = ({visibleBara,setVisibileBara}) => {
               <img className='rounded-full w-full h-full' src={`${import.meta.env.BASE_URL}home/descopera/exotic.jpg`} alt="" />
             </div>
             <div>
-              <p>Anrei Poopescu</p>
-              <p className='text-gray-400'>Administrator</p>
+              <p>Alex Enache</p>
+              <p className='text-gray-400'>Admin</p>
             </div>
           </div>
         </div>

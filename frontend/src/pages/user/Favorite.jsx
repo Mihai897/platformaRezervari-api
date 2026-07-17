@@ -22,7 +22,7 @@ const Favorite = () => {
   },[]);
 
   useEffect(()=>{
-    fetch("http://localhost:5000/api/users/favorite-rooms/1")
+    fetch(`${import.meta.env.VITE_API_URL}/users/favorite-rooms/1`)
     .then(res=>res.json())
     .then(data=>setRoomsFav(data))
     .catch(err=>console.error(err))
